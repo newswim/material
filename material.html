@@ -1,0 +1,47 @@
+<head>
+  <title>material</title>
+  
+</head>
+
+<body>
+{{> mainNav}}
+  <h1>Welcome to Meteor!</h1>
+
+  {{> hello}}
+  <img class="mainSplashImage" src="PROSPECTUS-FRONT.png" />
+<blockquote class="pull-right">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+    <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+</blockquote>
+			{{> sliders}}
+	<div class="clearFix"></div>
+		<div class="row">
+			<div class="col-lg-6">
+					<div class="well bs-component">
+
+		{{> exampleForm}}
+					</div>
+				</div>
+			<div class="col-lg-4 col-lg-offset-1">
+					<div class="bs-component">
+		{{> exampleInputFields}}
+					</div>
+				</div>
+			</div>
+	<div class="clearFix"></div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="bs-component">
+		{{> examplePanalWithAvatar}}
+				</div>
+			</div>
+		</div>
+		
+
+
+</body>
+
+<template name="hello">
+  <button>Click Me</button>
+  <p>You've pressed the button {{counter}} times.</p>
+</template>

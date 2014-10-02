@@ -1,0 +1,28 @@
+<template name="sliders">
+<div class="slider"></div>
+<div class="slider slider-success"></div>
+<div class="slider slider-material-pink"></div>
+
+<script src="jquery.js"></script>
+		<script src="jquery.nouislider.js"></script>
+
+		<link href="jquery.nouislider.css" rel="stylesheet">
+
+		<script>
+
+			 // On document ready, initialize noUiSlider.
+			$(function(){
+
+				$('.slider').noUiSlider({
+					start: [ 20, 30 ],
+					range: {
+						'min': 10,
+						'max': 40
+					}
+				});
+
+			});
+
+		</script>
+
+</template>
